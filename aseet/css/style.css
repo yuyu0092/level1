@@ -231,6 +231,33 @@ SP
   }
 
   /*-------------------------------------------
+  「よくある質問」
+  -------------------------------------------*/
+  .details-summary {
+    cursor: pointer;
+    transition: 0.2s;
+    padding: 6px;
+    border-radius: 6px;
+    font-size: 15px;
+  
+    /* ホバー時のスタイル */
+    &:hover {
+      cursor: pointer;
+      background-color: #bee1de;
+    }
+  
+    /* タブフォーカス時のスタイル */
+    &:focus-visible {
+      outline: dashed #00a5a0;
+    }
+  }
+  
+  /* 以下の記述は不要です */
+  body {
+    margin: 20px;
+  }
+
+  /*-------------------------------------------
   Contact
   -------------------------------------------*/
   #contact dl {
